@@ -8,17 +8,28 @@ First time our code push into github
 some commands
 ==============
 mkdir <foldername>
+
 ls
+
 cd <foldername>
+
 ls
+
 touch <filename>
+
 vi filename (it opens vi editor to insert the data)
+
 click "i" button insert some data
+
 add some data like hello world or anything
+
 commands: to save the data into a file
 --------
+
 esc 
+
 shift + colon 
+
 wq!
 
 [OR]
