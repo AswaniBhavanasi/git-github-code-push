@@ -30,8 +30,8 @@ ls
 ls -la
 git add <filename/folder> [OR] git add -A [OR] git add .
 git commit -m "<message>"
-git remote add origin <https github repo url>
 git branch -M main
+git remote add origin <https github repo url>
 git push -u origin main
 
 6. Refresh the page in github repo website
