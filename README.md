@@ -5,17 +5,18 @@ First time our code push into github
 3. login with gitbash in same folder(your pc)
 4. copy some files(tasks) into your folder 
 5. use git commands to push your files to github
+
 some commands
 ==============
-mkdir <foldername>
+mkdir <-foldername->
 
 ls
 
-cd <foldername>
+cd <-foldername->
 
 ls
 
-touch <filename>
+touch <-filename->
 
 vi filename (it opens vi editor to insert the data)
 
@@ -34,7 +35,7 @@ wq!
 
 [OR]
   
-cp -r <source-path/file/folder> <destination-path/file/folder>  # -r means recursive (copy inside folders files/folders)
+cp -r <-source-path/file/folder-> <-destination-path/file/folder->  # -r means recursive (copy inside folders files/folders)
 
 git init
   
@@ -42,13 +43,13 @@ ls
   
 ls -la
   
-git add <filename/folder> [OR] git add -A [OR] git add .
+git add <-filename/folder-> [OR] git add -A [OR] git add .
   
-git commit -m "<message>"
+git commit -m "<-message->"
   
 git branch -M main
   
-git remote add origin <https github repo url>
+git remote add origin <-https github repo url->
   
 git push -u origin main
 
@@ -57,8 +58,8 @@ git push -u origin main
 
 Second time our code push into same github repo
 ================================================
-1. git add <filename/folder> [OR] git add -A [OR] git add .
+1. git add <-filename/folder-> [OR] git add -A [OR] git add .
   
-2. git commit -m "<message>"
+2. git commit -m "<-message->"
   
 3. git push -u origin main
